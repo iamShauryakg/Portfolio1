@@ -12,11 +12,14 @@ html {
 
 header{
     height: 100vh;
-    width: 200vh; 
+    width: 198.8vh; 
     max-width:100%;
-    background: url("images/background.png") no-repeat center center;
+}
+.header .headerimg{
+    background: url('./assets/background.png') no-repeat center center;
     background-size: cover;
-
+    overflow: hidden;
+    height: 100vh;
 }
 header nav {
     position: fixed;
@@ -59,7 +62,7 @@ header nav .menu .navbar ul li{
     background:white;
 }
 header .img{
-    background: url('background.png');
+    background: url('./assets/background.png');
     height: 100vh;
 }
 
@@ -125,14 +128,17 @@ header .img{
 }
 
 /* --------------------------------------------------------- About Me------------------------------------------------------------------------------ */
-section .about-me{
+.about-me{
     height: 100vh;
     width: 100%;
     background-color: #222d33;
-  }
-  .about-me .img2{
-    background: url('images/aboutme.jpg') no-repeat center center;
+}
+.about-me .aboutimg{
+    background: url('./assets/aboutme.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
     background: cover;
+    overflow: hidden;
     height: 100vh;
 }
 .about-me .aboutme{

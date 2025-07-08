@@ -1,13 +1,14 @@
 import { useEffect } from 'react';
+import profile3 from '../assets/profile3.jpg'
 
 function About_Me() {
     useEffect(() => {
-        document.title = "About Me"
+        document.title = "Portfolio"
     })
 
   return (
     <section id="about" className="about-me" >
-        <div className="img2">
+        <div className="aboutimg">
             <div className="aboutme">
                 <div className="title">
                     <h2>About Me</h2>
@@ -15,7 +16,7 @@ function About_Me() {
     
                 <div className="content2">
                     <div className="image2">
-                        <img src="images/profile3.jpg" alt="about me image" />
+                        <img src={profile3} alt="about me image" />
                     </div>
                     <div className="aboutme-content">
                         <div className="aname">I am Shaurya </div>
