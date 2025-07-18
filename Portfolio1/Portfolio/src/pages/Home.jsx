@@ -8,16 +8,13 @@ function Home_page() {
     return (
 
         <div>
-        <header>            
-            < Navbar />
-    
+        <header>
+            <Navbar />
         </header>
-        
-           <div>
-             < About_Me />
-            </div>
-        
-     
+        <div>
+            <About_Me />
+        </div>
+
         </div>
     )
     
